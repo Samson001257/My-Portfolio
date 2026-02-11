@@ -8,7 +8,7 @@ import called from '../../assets/Calling.png'
 
 
 
-import './Contact.css';
+import '../Contact/Contact.css';
 
 function Contact() {
 

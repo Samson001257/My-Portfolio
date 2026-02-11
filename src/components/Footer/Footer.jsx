@@ -4,7 +4,7 @@ import logo1 from '../../assets/logo1.png'
 
 import users from '../../assets/Users.png'
 
-import './footer.css'
+import '../Footer/footer.css'
 
 function Footer() {
   return (
@@ -12,46 +12,46 @@ function Footer() {
 
     <div className='footer'>
 
-       <div className='footer-top'>
+      <div className='footer-top'>
 
-         <div className='footer-top-left'>
-      
-           <img src={logo1} alt="" />
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, accusantium.</p>
+        <div className='footer-top-left'>
 
-         </div>
+          <img src={logo1} alt="" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, accusantium.</p>
 
-           <div className='footer-top-right'>
+        </div>
 
-              <div className='footer-email-input'>
+        <div className='footer-top-right'>
 
-                 <img src={users} alt="" />
+          <div className='footer-email-input'>
 
-                 <input type="email" placeholder='Enter your email' />
+            <img src={users} alt="" />
 
-              </div>
+            <input type="email" placeholder='Enter your email' />
+
+          </div>
 
 
-                 <div className='footer-subscribe'>Subscribe</div>
+          <div className='footer-subscribe'>Subscribe</div>
 
-           </div>
+        </div>
 
-       </div>
+      </div>
 
-       <hr/>
+      <hr />
 
-         <div className='footer-bottom'>
+      <div className='footer-bottom'>
 
-           <p className='footer-bottom-left'>@ 2026 SAM SOFTWARE</p>
+        <p className='footer-bottom-left'>@ 2026 SAM SOFTWARE</p>
 
-           <div className='footer-bottom-right'></div>
+        <div className='footer-bottom-right'></div>
 
-            <p>Term of Services</p>
-            <p>Privacy policy</p>
-            <p>Connect with me</p>
+        <p>Term of Services</p>
+        <p>Privacy policy</p>
+        <p>Connect with me</p>
 
-         </div>
-      
+      </div>
+
     </div>
   )
 }

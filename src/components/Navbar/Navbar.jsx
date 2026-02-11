@@ -10,7 +10,7 @@ import openmenu from '../../assets/openmenu.png'
 
 import closemenu from '../../assets/closing.png'
 
-import './Navbar.css';
+import '../Navbar/Navbar.css';
 
 function Navbar() {
 
@@ -41,7 +41,7 @@ function Navbar() {
 
         <img src={closemenu} onClick={closeMenu} alt="" className='nav-mob-close' />
 
-        
+
 
         <li> <AnchorLink className="anchor-link" offset={50} href="#home" > <p onClick={() => setMenu("home")} >Home</p></AnchorLink>{menu === "home" ? <img src={underline} alt="" /> : <></>} </li>
         <li> <AnchorLink className="anchor-link" offset={50} href="#about" > <p onClick={() => setMenu("about")} >About Ma</p></AnchorLink>{menu === "about" ? <img src={underline} alt="" /> : <></>}</li>
